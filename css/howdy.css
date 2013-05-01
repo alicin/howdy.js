@@ -1,0 +1,15 @@
+.flash_wrapper{width: 100%; position: fixed; z-index: 100; font-family: Helvetica, Arial, sans-serif;}
+.flash_wrapper .message{overflow: hidden;}
+.flash_item_wrapper{display: none;}
+.flash_wrapper .alert {padding: 8px 35px 8px 14px; margin-bottom: 20px; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); background-color: #fcf8e3; border: 1px solid #fbeed5; border-radius: 4px;}
+.flash_wrapper .alert {color: #c09853;}
+.flash_wrapper .alert .close {position: relative; top: 1px; right: -21px;}
+.flash_wrapper .alert-block {padding-top: 14px; padding-bottom: 14px;}
+/* Button style */
+.flash_wrapper .close {float: right; font-weight: bold; opacity: 0.2; filter: alpha(opacity=20);}
+.flash_wrapper .close:hover, .close:focus {cursor: pointer; opacity: 0.4; filter: alpha(opacity=40);}
+.flash_wrapper button.close {background-color: transparent; padding: 0; cursor: pointer; border: 0; -webkit-appearance: none;}
+/* CSS FOR SUCCESS, ERROR and INFO STATES */
+.flash_wrapper .alert-success {background-color: #dff0d8; border-color: #d6e9c6; color: #468847;}
+.flash_wrapper .alert-error {background-color: #f2dede; border-color: #eed3d7; color: #b94a48;}
+.flash_wrapper .alert-info {background-color: #d9edf7; border-color: #bce8f1; color: #3a87ad;}
